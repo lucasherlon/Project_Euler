@@ -4,7 +4,7 @@ The largest palindrome made from the product of two 2-digit numbers is 9009 = 91
 Find the largest palindrome made from the product of two 3-digit numbers.'''
 
 
-def capicua(a):
+def capicua(a): 
     n = str(a)
     if n == n[::-1]:
         return True
