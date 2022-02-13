@@ -14,10 +14,10 @@ def divisivel(lista, num):
 
 
 lista = list(range(1, 21))
-n = 2520
+n = 2520 #O número 'n' deve ser o máximo divisor conhecido do número que procuramos
 while True:
     if divisivel(lista, n):
-        print(n)
+        print(n) 
         break
     else:
-        n += 2520
+        n += 2520 #O número a ser adicionado dever ser igual ao valor do 'n' antes do loop
