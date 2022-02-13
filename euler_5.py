@@ -20,4 +20,4 @@ while True:
         print(n) 
         break
     else:
-        n += 2520 #O número a ser adicionado dever ser igual ao valor do 'n' antes do loop
+        n += 2520 #O número a ser adicionado dever ser igual ao valor original do 'n'
